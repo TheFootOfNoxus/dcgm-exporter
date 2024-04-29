@@ -30,9 +30,11 @@ var (
 	SkipDCGMValue   = "SKIPPING DCGM VALUE"
 	FailedToConvert = "ERROR - FAILED TO CONVERT TO STRING"
 
-	nvidiaResourceName      = "nvidia.com/gpu"
-	nvidiaMigResourcePrefix = "nvidia.com/mig-"
-	MIG_UUID_PREFIX         = "MIG-"
+	nvidiaResourceName         = "nvidia.com/gpu"
+	nvidiaMigResourcePrefix    = "nvidia.com/mig-"
+	MIG_UUID_PREFIX            = "MIG-"
+	nvidiaGseMemResourceName   = "aliyun.com/gpu-mem"
+	nvidiaGseCountResourceName = "aliyun.com/gpu-count"
 
 	// Note standard resource attributes
 	podAttribute       = "pod"
